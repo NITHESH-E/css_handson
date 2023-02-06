@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Marvel Studio</title>
+		<style>
+			body {
+				background-image: url("https://wallpaperaccess.com/full/1868188.jpg");
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			#marvel_studio {
+				height: 500px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-right: -50%;
+				transform: translate(-50%, -50%);
+				width:60%;
+			}
+			#Title {
+				width: 100%;
+				background-color:red;
+				padding:3px;
+			}
+			#TitleName {
+				text-align: center;
+				color: white;
+			}
+			#Content {
+				opacity: 0.8;
+				background-color:black;
+				height: 100%;
+			}
+			#ContentHead {
+				color:white;
+				height:100px;
+				width:100%;
+				display:inline;
+				text-align:center;
+				font-weight:bold;
+			}
+			#popularHeros {
+				width: 50%;
+				float: left;
+			}
+			#popularVillains {
+				width: 50%;
+				float: right;
+			}
+			#ContentBody {
+				width:100%;
+				display:inline;
+				text-align:center;
+			}
+			#Heros {
+				width: 50%;
+				float: left;
+			}
+			#Villains {
+				width: 50%;
+				float: right;
+			}
+			div.images {
+				text-align:center;
+				margin: 2px;
+				width:100px;
+				padding-left:10px;
+				padding-bottom:15px;
+				display:inline-block;
+			}
+			div p {
+				text-align: center;
+				color:black;
+				background-color:white;
+				margin:0px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div id="marvel_studio">
+			<div id="Title">
+				<h1 id="TitleName">THE MARVEL UNIVERSE</h1>
+			</div>
+			<div id="Content">
+				<div id="ContentHead">
+					<h2 id="popularHeros"> POPULAR SUPER HEROS </h2>
+					<h2 id="popularVillains"> POPULAR SUPER VILLAINS </h2>
+				</div>
+				<div id="ContentBody">
+					<div id="Heros"> 
+						<div class="images">
+						        <img id="superHeros1" src="https://www.cnet.com/a/img/resize/1c4696c999b09cff6bde56ee3ef23a296c3ccf90/hub/2018/04/25/0c1edd36-e90b-42bc-abc6-e8fcfc2395a9/iron-man-2.jpg?auto=webp" width="100" height="100" alt=""/>
+						        <p id="superHerosName1"> Iron Man</p>
+						</div>
+						<div class="images">
+						        <img id="superHeros2" src="https://www.koimoi.com/wp-content/new-galleries/2022/06/chris-hemsworth-to-appear-as-thor-for-the-final-time-in-thor-love-thunder-heres-what-he-has-to-say-about-it-01.jpg" width="100" height="100" alt=""/>
+						        <p id="superHerosName2"> Thor</p>
+						</div>
+						<div class="images">
+						        <img id="superHeros3" src="https://www.denofgeek.com/wp-content/uploads/2021/01/webstory-captain-america-cover03.jpg" width="100" height="100" alt=""/>
+						        <p id="superHerosName3"> Captain America</p>
+						</div>
+						<div class="images">
+						        <img id="superHeros4" src="https://cdn.britannica.com/64/182864-050-8975B127/Scene-The-Incredible-Hulk-Louis-Leterrier.jpg" width="100" height="100" alt=""/>
+						        <p id="superHerosName4"> Hulk</p>
+						</div>
+						<div class="images">
+						        <img id="superHeros5" src="https://media.newyorker.com/photos/5a875e3f33aebd0cab9bab12/2:2/w_1079,h_1079,c_limit/Brody-Passionate-Politics-Black-Panther.jpg" width="100" height="100" alt=""/>
+						        <p id="superHerosName5"> Black Panther</p>
+						</div>
+						<div class="images">
+						        <img id="superHeros6" src="https://www.koimoi.com/wp-content/new-galleries/2022/11/marvel-is-reportedly-not-casting-tobey-maguire-in-spider-man-4-001.jpg" width="100" height="100" alt=""/>
+						        <p id="superHerosName6"> Spiderman</p>
+						</div>
+						<div class="images">
+						        <img id="superHeros7" src="https://images.news18.com/ibnlive/uploads/2021/07/1627623818_scarlett-johansson.jpg" width="100" height="100" alt=""/>
+						        <p id="superHerosName7">Black Widow</p>
+						</div>
+						<div class="images">
+						        <img id="superHeros8" src="https://static01.nyt.com/images/2018/07/06/arts/06antman1-dressrefer/06antman1-dressrefer-superJumbo.jpg" width="100" height="100" alt=""/>
+						        <p id="superHerosName8"> Antman</p>
+						</div>
+					</div>
+					<div id="Villains"> 
+						<div class="images">
+						        <img id="superVillain1" src="https://cdn.theatlantic.com/thumbor/9R5-6pI2aAgktJkscy2zisDfr8s=/1056x0:2664x1608/1080x1080/media/img/mt/2021/06/tra8660_105_trl_comp_v004_7f1c1cb3a/original.jpg" width="100" height="100" alt=""/>
+						        <p id="superVillainName1"> Loki</p>
+						</div>
+						<div class="images">
+						        <img id="superVillain2" src="https://static.wikia.nocookie.net/marveldatabase/images/3/30/Captain_America_Vol_9_13_Bring_on_the_Bad_Guys_Variant_Textless.jpg/revision/latest?cb=20210111231114" width="100" height="100" alt=""/>
+						        <p id="superVillainName2"> Red Skull</p>
+						</div>
+						<div class="images">
+						        <img id="superVillain3" src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/09/Avengers-Endgame-Thanos-Death.jpg" width="100" height="100" alt=""/>
+						        <p id="superVillainName3"> Thanos</p>
+						</div>
+						<div class="images">
+						        <img id="superVillain4" src="https://www.thecosmiccircus.com/wp-content/uploads/2021/09/ultron-is-a-complex-film-1024x688.jpeg" width="100" height="100" alt=""/>
+						        <p id="superVillainName4"> Ultron</p>
+						</div>
+						<div class="images">
+						        <img id="superVillain5" src="https://nypost.com/wp-content/uploads/sites/2/2021/12/best-comic-supervillains-osborn-04.jpg?quality=90&strip=all" width="100" height="100" alt=""/>
+						        <p id="superVillainName5"> Green Goblin</p>
+						</div>
+						<div class="images">
+						        <img id="superVillain6" src="https://i.pinimg.com/736x/4d/95/22/4d9522a74d61906625eab816b3bfa749.jpg" width="100" height="100" alt=""/>
+						        <p id="superVillainName6"> Mysterio</p>
+						</div>
+						<div class="images">
+						        <img id="superVillain7" src="https://d.newsweek.com/en/full/1878413/dr-octopus-spiderman-no-way-home.jpg?w=1600&h=1200&q=88&f=b5ba658cf688103db75bf6e3abd6bc0e" width="100" height="100" alt=""/>
+						        <p id="superVillainName7"> Dr Octopus</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
